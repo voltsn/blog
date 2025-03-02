@@ -1,12 +1,11 @@
 import Nav from './components/nav';
+import DefaultLayout from './components/layouts/default';
 
 function App() {
-
   return (
-    <>
-      <Nav />
-      <h1 className="font-poppins">Hello, world!</h1>
-    </>
+    <DefaultLayout header={<Nav />}>
+      <h1>Hello, world!</h1>
+    </DefaultLayout>
   )
 }
 
