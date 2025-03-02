@@ -3,5 +3,17 @@
 
 @theme {
   --font-gugi: "Gugi", sans-serif;
-  --font-poppins: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --color-primary: #F9F0EA;
+  --color-secondary: #AA5321;
+  --color-tertiary: #B29684;
+  --color-highlight: #D90000;
+}
+
+html {
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: var(--color-primary);
 }
