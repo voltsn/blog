@@ -1,8 +1,11 @@
+import Nav from './components/nav';
+
 function App() {
 
   return (
     <>
-      <h1>Hello, world!</h1>
+      <Nav />
+      <h1 className="font-poppins">Hello, world!</h1>
     </>
   )
 }
